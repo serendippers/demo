@@ -4,7 +4,30 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b545bdde-ea47-4ef9-a055-ee835850af2a" name="Default Changelist" comment="" />
+    <list default="true" id="b545bdde-ea47-4ef9-a055-ee835850af2a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/BufferedReaderProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/ExecuteAroundMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/Process.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/method_reference/MethodReference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Dish.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/StreamMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/StreamTestMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Trader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/flatMapDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/gouGuNumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Solution.java" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +42,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1UEwWbUvD6zksQU7ht9TLSd61aY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,13 +93,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamMain">
-    <configuration name="MethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.method_reference.MethodReference" />
+  <component name="RunManager" selected="Application.PrimeMain">
+    <configuration name="ExecuteAroundMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.execute_around.ExecuteAroundMain" />
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.method_reference.*" />
+          <option name="PATTERN" value="com.company.Lambda.execute_around.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.PrimeMain" />
+      <module name="demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.Lambda.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="flatMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.flatMapDemo" />
-      <module name="demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.Lambda.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="gouGuNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.gouGuNumber" />
       <module name="demo" />
@@ -126,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeMain" />
         <item itemvalue="Application.StreamMain" />
+        <item itemvalue="Application.ExecuteAroundMain" />
         <item itemvalue="Application.gouGuNumber" />
         <item itemvalue="Application.StreamTestMain" />
-        <item itemvalue="Application.flatMapDemo" />
-        <item itemvalue="Application.MethodReference" />
       </list>
     </recent_temporary>
   </component>
@@ -150,11 +185,30 @@
       <workItem from="1576044085083" duration="664000" />
       <workItem from="1576327123870" duration="5847000" />
       <workItem from="1576466929882" duration="13286000" />
-      <workItem from="1577265006545" duration="1570000" />
+      <workItem from="1577265006545" duration="2141000" />
+      <workItem from="1577343161345" duration="5956000" />
+      <workItem from="1577671199349" duration="16000" />
+      <workItem from="1578301845761" duration="402000" />
+      <workItem from="1578622195405" duration="2667000" />
+      <workItem from="1578629667597" duration="5972000" />
+      <workItem from="1578969476616" duration="391000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

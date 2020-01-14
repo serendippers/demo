@@ -2,7 +2,9 @@ package com.company.Lambda.stream;
 
 import java.util.*;
 import java.util.function.BinaryOperator;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static java.util.stream.Collectors.*;
 
@@ -33,7 +35,9 @@ public class StreamMain {
                 .skip(2)
                 .limit(2)
                 .distinct()//去重复
-                .forEach((dish)->{System.out.println(dish.getName());});
+                .forEach((dish) -> {
+                    System.out.println(dish.getName());
+                });
 
 
         int totalCalories = menu.stream().collect(reducing(0, Dish::getCalories, Integer::sum));
@@ -54,9 +58,46 @@ public class StreamMain {
         System.out.println(avg);
         OptionalDouble average = menu.stream().mapToInt(Dish::getCalories).average();
         System.out.println(average);
-        BinaryOperator
+        Map<Dish.Type, Optional<Dish>> map = menu.stream().collect(groupingBy(Dish::getType, maxBy(Comparator.comparingInt(Dish::getCalories))));
+        System.out.println(map);
+
+        Map<Dish.Type, Long> longMap = menu.stream().collect(groupingBy(Dish::getType, counting()));
+        System.out.println(longMap);
+
+        Map<Dish.Type, Dish> stringMap = menu.stream().collect(groupingBy(Dish::getType, collectingAndThen(maxBy(Comparator.comparing(Dish::getCalories)), Optional::get)));
+        System.out.println(stringMap);
+
+
+        Map<Boolean, List<Dish>> booleanDishMap = menu.stream().collect(groupingBy(Dish::isVegetarian));
+        System.out.println(booleanDishMap);
+        booleanDishMap = menu.stream().collect(partitioningBy(Dish::isVegetarian));
+        System.out.println(booleanDishMap);
+
+        Map<Boolean, Map<Dish.Type, List<Dish>>> vegetarianDishesByType = menu.stream()
+                .collect(partitioningBy(Dish::isVegetarian, groupingBy(Dish::getType)));
+        System.out.println(vegetarianDishesByType);
+
+        Map<Boolean, Dish> mostCaloricPartitionedByVegetarian = menu.stream()
+                .collect(
+                        partitioningBy(Dish::isVegetarian, collectingAndThen(maxBy(Comparator.comparing(Dish::getCalories)), Optional::get)));
+        System.out.println(mostCaloricPartitionedByVegetarian);
+        List<Integer> prime = IntStream.range(1, 20).boxed().filter(e -> IntStream.range(2, e).noneMatch(s -> e % s == 0)).collect(toList());
+        System.out.println(prime);
+
+        Map<Boolean, List<Integer>> primeMap = IntStream.rangeClosed(2, 20).boxed().collect(partitioningBy(StreamMain::isPrime));
+        System.out.println(primeMap);
+
+        List<Dish> toListCollector = menu.stream().collect(new ToListCollector<>());
+        System.out.println(toListCollector);
 
     }
+
+
+    public static boolean isPrime(int num) {
+        return IntStream.rangeClosed(2, (int)Math.sqrt(num))
+                .noneMatch(e -> num % e == 0);
+    }
+
 
 /*    public int[] twoSum(int[] nums, int target) {
         Map<Integer,Integer> map = new HashMap<>();
