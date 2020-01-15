@@ -5,28 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b545bdde-ea47-4ef9-a055-ee835850af2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/parallel_stream/ParallelSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/leetcode/FindMedianSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/leetcode/StringSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/leetcode/StringSolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/parallel_stream/ParallelSumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/BufferedReaderProcessor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/ExecuteAroundMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/execute_around/Process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/method_reference/MethodReference.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Dish.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/StreamMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/StreamTestMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Trader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/Transaction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/flatMapDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Lambda/stream/gouGuNumber.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/leetcode/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/BufferedReaderProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/Process.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/method_reference/MethodReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Dish$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Dish.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeNumbersCollector$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeNumbersCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamTestMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/ToListCollector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Trader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/flatMapDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/gouGuNumber$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/gouGuNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/leetcode/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/leetcode/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +47,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -58,6 +69,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,6 +84,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.leetcode" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.company.Lambda.stream" />
       <recent name="com.company.Lambda.method_reference" />
@@ -93,79 +112,93 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PrimeMain">
-    <configuration name="ExecuteAroundMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.execute_around.ExecuteAroundMain" />
+  <component name="RunManager" selected="JUnit.StringSolutionTest.lengthOfLongestSubstring2">
+    <configuration name="ParallelSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.execute_around.*" />
+          <option name="PATTERN" value="parallel_stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="parallel_stream" />
+      <option name="MAIN_CLASS_NAME" value="parallel_stream.ParallelSumTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.PrimeMain" />
+    <configuration name="ParallelSumTest.parallelSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.stream.*" />
+          <option name="PATTERN" value="parallel_stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="parallel_stream" />
+      <option name="MAIN_CLASS_NAME" value="parallel_stream.ParallelSumTest" />
+      <option name="METHOD_NAME" value="parallelSum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.StreamMain" />
+    <configuration name="ParallelSumTest.sequentialSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.stream.*" />
+          <option name="PATTERN" value="parallel_stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="parallel_stream" />
+      <option name="MAIN_CLASS_NAME" value="parallel_stream.ParallelSumTest" />
+      <option name="METHOD_NAME" value="sequentialSum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.StreamTestMain" />
+    <configuration name="StringSolutionTest.lengthOfLongestSubstring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.stream.*" />
+          <option name="PATTERN" value="com.company.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.StringSolutionTest" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstring" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gouGuNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Lambda.stream.gouGuNumber" />
+    <configuration name="StringSolutionTest.lengthOfLongestSubstring2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.Lambda.stream.*" />
+          <option name="PATTERN" value="com.company.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.company.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="com.company.leetcode.StringSolutionTest" />
+      <option name="METHOD_NAME" value="lengthOfLongestSubstring2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PrimeMain" />
-        <item itemvalue="Application.StreamMain" />
-        <item itemvalue="Application.ExecuteAroundMain" />
-        <item itemvalue="Application.gouGuNumber" />
-        <item itemvalue="Application.StreamTestMain" />
+        <item itemvalue="JUnit.StringSolutionTest.lengthOfLongestSubstring2" />
+        <item itemvalue="JUnit.StringSolutionTest.lengthOfLongestSubstring" />
+        <item itemvalue="JUnit.ParallelSumTest" />
+        <item itemvalue="JUnit.ParallelSumTest.parallelSum" />
+        <item itemvalue="JUnit.ParallelSumTest.sequentialSum" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +224,7 @@
       <workItem from="1578301845761" duration="402000" />
       <workItem from="1578622195405" duration="2667000" />
       <workItem from="1578629667597" duration="5972000" />
-      <workItem from="1578969476616" duration="391000" />
+      <workItem from="1578969476616" duration="14937000" />
     </task>
     <servers />
   </component>
