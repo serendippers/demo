@@ -5,38 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b545bdde-ea47-4ef9-a055-ee835850af2a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/parallel_stream/ParallelSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Lambda/reconstitution/Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/leetcode/FindMedianSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/leetcode/StringSolution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/company/leetcode/StringSolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/parallel_stream/ParallelSumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/BufferedReaderProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/ExecuteAroundMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/execute_around/Process.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/method_reference/MethodReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Dish$Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Dish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeNumbersCollector$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/PrimeNumbersCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/StreamTestMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/ToListCollector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Trader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/flatMapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/gouGuNumber$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/Lambda/stream/gouGuNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/leetcode/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/demo/com/company/leetcode/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +68,7 @@
       <recent name="com.company.Lambda" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/file/lambda" />
     </key>
   </component>
@@ -224,7 +196,7 @@
       <workItem from="1578301845761" duration="402000" />
       <workItem from="1578622195405" duration="2667000" />
       <workItem from="1578629667597" duration="5972000" />
-      <workItem from="1578969476616" duration="14937000" />
+      <workItem from="1578969476616" duration="15545000" />
     </task>
     <servers />
   </component>

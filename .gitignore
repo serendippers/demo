@@ -1,0 +1,10 @@
+target/
+out/
+
+### IntelliJ IDEA ###
+.idea
+
+log/
+log/*
+
+demo.iml
