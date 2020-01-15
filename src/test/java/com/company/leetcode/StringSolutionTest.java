@@ -22,7 +22,7 @@ class StringSolutionTest {
     void lengthOfLongestSubstring2() {
         String s = "dvdf";
         StringSolution solution = new StringSolution();
-        int size = solution.lengthOfLongestSubstring2(s);
+        int size = solution.lengthOfLongestSubstring(s);
         System.out.println(size);
     }
 }
