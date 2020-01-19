@@ -27,7 +27,7 @@ class LeetCodeTest {
     @Test
     void myAtoi() {
         StringToInt stringToInt = new StringToInt();
-        int res = stringToInt.myAtoi("-2147483649");
+        int res = stringToInt.myAtoi("                -2147483649");
         System.out.println(res);
     }
 }

@@ -58,17 +58,20 @@ import java.util.Set;
 public class StringToInt {
 
     public int myAtoi(String str) {
-        if (str == null || (str = str.trim()).length() == 0) {
+        if (str == null || str.length() == 0) {
             return 0;
         }
         int index = 0;
+        while (index < str.length() && ' ' == str.charAt(index)) {
+            index++;
+        }
         int res = 0;
         int temp;
         int i = 1;
         int max = Integer.MAX_VALUE / 10;
-        if ('+' == str.charAt(0)) {
+        if ('+' == str.charAt(index)) {
             index++;
-        } else if ('-' == str.charAt(0)) {
+        } else if ('-' == str.charAt(index)) {
             i = -1;
             index++;
         }
