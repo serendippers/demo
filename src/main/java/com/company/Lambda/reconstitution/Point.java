@@ -16,8 +16,6 @@ public class Point {
 
     public static final Comparator<Point> compareByXAndThenY = Comparator.comparing(Point::getX).thenComparing(Point::getY);
 
-    Optional
-
     public Point(int x, int y) {
         this.x = x;
         this.y = y;

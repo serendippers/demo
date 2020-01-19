@@ -25,4 +25,11 @@ class StringSolutionTest {
         int size = solution.lengthOfLongestSubstring(s);
         System.out.println(size);
     }
+
+    @Test
+    void ZShapeConvert() {
+        ShapeConvert shapeConvert = new ShapeConvert();
+        String res = shapeConvert.convert("PAYPALISHIRING", 3);
+        System.out.println(res);
+    }
 }

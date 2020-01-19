@@ -16,4 +16,18 @@ class LeetCodeTest {
         String result = longestPalindrome.longestPalindrome("bb");
         System.out.println(result);
     }
+
+    @Test
+    void reverse() {
+        IntegerReverse integerReverse = new IntegerReverse();
+        int res = integerReverse.reverse(-123);
+        System.out.println(res);
+    }
+
+    @Test
+    void myAtoi() {
+        StringToInt stringToInt = new StringToInt();
+        int res = stringToInt.myAtoi("-2147483649");
+        System.out.println(res);
+    }
 }
