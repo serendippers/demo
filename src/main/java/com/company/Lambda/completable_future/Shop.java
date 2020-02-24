@@ -3,9 +3,7 @@ package com.company.Lambda.completable_future;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.concurrent.CompletableFuture;
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 import java.util.stream.Collectors;
 
 /**
@@ -14,7 +12,10 @@ import java.util.stream.Collectors;
  */
 public class Shop {
 
+
     private String name;
+
+    private Random random = new Random();
 
     public Shop() {
     }
@@ -52,7 +53,6 @@ public class Shop {
 
     private double calculatePrice(String product) {
         delay();
-        Random random = new Random();
         return random.nextDouble() * product.charAt(0) + product.charAt(1);
     }
 
@@ -75,6 +75,13 @@ public class Shop {
         return shops.parallelStream()
                 .map(shop -> String.format("%s price is %.2f", shop.getName(), shop.getPrice(product)))
                 .collect(Collectors.toList());
+    }
+
+
+    public String getPriceCode(String product) {
+        double price = calculatePrice(product);
+        Discount.Code code = Discount.Code.values()[random.nextInt(Discount.Code.values().length)];
+        return String.format("%s:%.2f:%s", name, price, code);
     }
 
 
@@ -134,5 +141,24 @@ public class Shop {
         duration = (System.nanoTime() - start) / 1_000_000;
         System.out.println("CompletableFuture done in " + duration + " msecs");
         System.out.println(list);
+
+        System.out.println("---------------------------------------------------");
+
+        start = System.nanoTime();
+        Executor executor = Executors.newFixedThreadPool(Math.min(shops.size(), 100), new ThreadFactory() {
+            @Override
+            public Thread newThread(Runnable r) {
+                Thread thread = new Thread();
+                thread.setDaemon(true);
+                return thread;
+            }
+        });
+
+        CompletableFuture.supplyAsync(() -> shop.getName() + " price is " +
+                shop.getPrice("myPhone27S"), executor);
+
+        duration = (System.nanoTime() - start) / 1_000_000;
+        System.out.println("CompletableFuture done in " + duration + " msecs");
+
     }
 }

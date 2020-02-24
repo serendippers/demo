@@ -39,4 +39,14 @@ class LeetCodeTest {
         System.out.println(maxArea.maxArea(input));
 
     }
+
+    @Test
+    void intToRoman() {
+        IntToRoman intToRoman = new IntToRoman();
+        String res = intToRoman.intToRoman(27);
+        String res2 = intToRoman.intToRoman2(27);
+        System.out.println(res);
+        System.out.println(res2);
+
+    }
 }

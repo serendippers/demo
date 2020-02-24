@@ -32,4 +32,10 @@ class StringSolutionTest {
         String res = shapeConvert.convert("PAYPALISHIRING", 3);
         System.out.println(res);
     }
+
+    @Test
+    void test() {
+        int num = Runtime.getRuntime().availableProcessors();
+        System.out.println(num);
+    }
 }
