@@ -49,4 +49,12 @@ class LeetCodeTest {
         System.out.println(res2);
 
     }
+
+
+    @Test
+    void ThreeSum() {
+        ThreeSum threeSum = new ThreeSum();
+        int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
+        System.out.println(threeSum.threeSum(nums));
+    }
 }
