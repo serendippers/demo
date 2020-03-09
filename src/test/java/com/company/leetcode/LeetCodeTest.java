@@ -57,4 +57,11 @@ class LeetCodeTest {
         int[] nums = new int[]{-1, 0, 1, 2, -1, -4};
         System.out.println(threeSum.threeSum(nums));
     }
+
+    @Test
+    void stockTransaction() {
+        StockTransaction test = new StockTransaction();
+        int maxProfit = test.maxProfit(new int[]{7, 1, 5, 3, 6, 4});
+        System.out.println(maxProfit);
+    }
 }
